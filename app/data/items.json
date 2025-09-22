@@ -1,0 +1,134 @@
+{
+  "schema": {
+    "Item": {
+      "id": "string",
+      "name": "string",
+      "slot": "Helmet|Chest|Weapon|Shield|Boots|Ring|Amulet|Gloves|Belt",
+      "rarity": "common|uncommon|rare|epic|legendary|mythic",
+      "stats": {
+        "STR": "number",
+        "DEX": "number",
+        "INT": "number",
+        "ARMOR": "number",
+        "CRIT": "number"
+      }
+    }
+  },
+  "equipped": {
+    "Helmet": {
+      "id": "h1",
+      "name": "Rusty Helm",
+      "slot": "Helmet",
+      "rarity": "common",
+      "stats": {
+        "ARMOR": 6
+      }
+    },
+    "Chest": {
+      "id": "c1",
+      "name": "Padded Jerkin",
+      "slot": "Chest",
+      "rarity": "uncommon",
+      "stats": {
+        "ARMOR": 10,
+        "DEX": 1
+      }
+    },
+    "Weapon": {
+      "id": "w1",
+      "name": "Knight's Shortsword",
+      "slot": "Weapon",
+      "rarity": "rare",
+      "stats": {
+        "STR": 3,
+        "CRIT": 2
+      }
+    },
+    "Shield": {
+      "id": "s1",
+      "name": "Biscuit Tray",
+      "slot": "Shield",
+      "rarity": "common",
+      "stats": {
+        "ARMOR": 5
+      }
+    },
+    "Boots": null,
+    "Ring": {
+      "id": "r1",
+      "name": "Crumbly Band",
+      "slot": "Ring",
+      "rarity": "epic",
+      "stats": {
+        "CRIT": 4
+      }
+    },
+    "Amulet": null,
+    "Gloves": null,
+    "Belt": null
+  },
+  "inventory": [
+    {
+      "id": "i1",
+      "name": "Splintered Buckler",
+      "slot": "Shield",
+      "rarity": "uncommon",
+      "stats": {
+        "ARMOR": 8
+      }
+    },
+    {
+      "id": "i2",
+      "name": "Twig Dagger",
+      "slot": "Weapon",
+      "rarity": "common",
+      "stats": {
+        "DEX": 2
+      }
+    },
+    {
+      "id": "i3",
+      "name": "Sage's Loop",
+      "slot": "Ring",
+      "rarity": "legendary",
+      "stats": {
+        "INT": 5,
+        "CRIT": 3
+      }
+    },
+    {
+      "id": "i4",
+      "name": "Pants of Mild Confidence",
+      "slot": "Belt",
+      "rarity": "rare",
+      "stats": {
+        "STR": 1,
+        "ARMOR": 3
+      }
+    },
+    {
+      "id": "i5",
+      "name": "Boots of Squeak",
+      "slot": "Boots",
+      "rarity": "uncommon",
+      "stats": {
+        "DEX": 1
+      }
+    }
+  ],
+  "rarityOrder": [
+    "common",
+    "uncommon",
+    "rare",
+    "epic",
+    "legendary",
+    "mythic"
+  ],
+  "compareKeys": [
+    "STR",
+    "DEX",
+    "INT",
+    "ARMOR",
+    "CRIT"
+  ]
+}
